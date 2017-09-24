@@ -502,7 +502,8 @@ namespace challenging_mechanics_4_ushapant12345
             {
                 for (int wInA = 1; wInA < 6; wInA++)
                 {
-                    str += (wOutA ^ wInA) + "|";
+                    str += Math.Pow(wOutA , wInA) + "|";        
+
                 }
                 str += "\r\n";
             }
